@@ -480,7 +480,7 @@
                         <div style="color: #666; margin-top: 5px; font-size: 14px;">rides (with ${pointsToUse} points)</div>
                     </div>
                     <div class="strategy-card">
-                        <h4>Leader's Score</h4>
+                        <h4>The Best Opponent's Score</h4>
                         <div class="strategy-value">${highestOpponentScore.toFixed(0)}</div>
                         <div style="color: #666; margin-top: 5px; font-size: 14px;">${teamScores[0].name}</div>
                     </div>
@@ -792,7 +792,7 @@
                 ctx.fillStyle = '#dc3545';
                 ctx.font = 'bold 11px sans-serif';
                 ctx.textAlign = 'center';
-                ctx.fillText(`Leader loses: ${leaderLosesAtRides}r+`, pos.x, height - paddingBottom + 35);
+                ctx.fillText(`The Best Opponent loses: ${leaderLosesAtRides}r+`, pos.x, height - paddingBottom + 35);
             }
         }
 
